@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+}
+
+.box1, .box2,.box3,.box4,.box5{
+    background-color: rgb(61, 61, 61);
+    padding: 1rem;
+}
+
+.box2{
+    grid-row: 1;
+    grid-column: 1;
+    border-radius: 1rem;
+    margin: 1rem 0.5rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.line{
+    margin: 1rem;
+    color: rgb(92, 92, 92);
+    border-radius: 1rem;
+}
+
+#readme{
+    padding: 1rem;
+    color: white;
+    line-height: 1.8rem;
+}
+
+.box1{
+    grid-row: 1;
+    grid-column: 2;
+    border-radius: 1rem;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.link-text a{
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2{
+    color: white;
+}
+
+.about-text{
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+}
+
+.profile {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    align-self: center;
+}
+.profile img {
+    border: 3px solid rgb(100, 100, 100);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
