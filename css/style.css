@@ -64,6 +64,7 @@ body {
   font-size: 1.2rem;
 }
 
+
 .github-link {
   text-decoration: none;
   color: white;
@@ -74,6 +75,21 @@ body {
   font-weight: bolder;
   border-radius: 0.5rem;
   margin: 1rem 0;
+}
+
+i {
+    color: rgb(255, 234, 115);
+    border: 2px solid rgb(48, 48, 48);
+    border-radius: 0.3rem;
+    padding: 0.7rem 0;
+    width: 40px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgb(85, 85, 85);
+}
+
+.info-text{
+    color: rgb(172, 172, 172);
 }
 
 .box3:hover,
@@ -137,7 +153,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  border: solid 2px;
+  border: solid 2px ;
 }
 
 .img-container {
