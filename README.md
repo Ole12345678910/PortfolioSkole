@@ -8,9 +8,6 @@ Welcome to my portfolio where you get to know me a little bit more, here are hig
 These examples showcase my skills and dedication. 
 Dive in to see what I've been working on and how I approach my projects.
 
-
-P
-
 ## Built With
 
 - CSS, HTML
