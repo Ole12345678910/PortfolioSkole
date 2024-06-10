@@ -181,13 +181,13 @@ i {
 .box3:hover,
 .box4:hover,
 .box5:hover {
-  scale: 1.04;
+  transform: scale(1.04);
   cursor: pointer;
 }
 
 /* Hover effect for links in link-box */
 .link-box a:hover {
-  scale: 1.1;
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -210,7 +210,6 @@ i {
 .about-text {
   font-size: 1rem;
   line-height: 1.9rem;
-  font-weight: light;
 }
 
 /* Project text style */
