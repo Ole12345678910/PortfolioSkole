@@ -313,7 +313,9 @@ i {
     grid-column: 1/-1;
     margin: 0 1rem;
   }
-  .box3,.box4,.box5{
+  .box3,
+  .box4,
+  .box5 {
     min-width: 200px;
   }
   .card-container {
